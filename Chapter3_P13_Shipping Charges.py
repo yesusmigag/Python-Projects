@@ -9,7 +9,7 @@
 						            Country Sales Tax
 	                                State Sales Tax
                                     Total Sales Tax
-	-------------------------------------------------------
+	------------------------------------------------------
 """
 #****Module\Libraries
 import os
