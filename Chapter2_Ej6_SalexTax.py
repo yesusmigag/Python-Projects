@@ -1,4 +1,4 @@
-"""	Jesus M 		      	
+"""			      	
 	Chapter #2,Problem #6 Sales Tax	
 
 	This program will calculate the  Sales Tax
