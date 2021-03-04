@@ -1,38 +1,38 @@
 """			      	
-	Chapter #2,Problem #6 Sales Tax	
+	Chapter #3,Problem #13 Shipping Charges	
 
-	This program will calculate the  Sales Tax
+	This program will calculate the Shipping Charges
 	-------------------------------------------------------
 	INPUT							OUTPUT
 	-----							------
-	Amount of Purchase				Amount of Purchasee
-						            Country Sales Tax
-	                                State Sales Tax
-                                    Total Sales Tax
+	Weight of a package				Shipping charges.
 	------------------------------------------------------
 """
 #****Module\Libraries
 import os
-#*** Program modules, functions, constants, and variables
-#*** Declaration and initialization of variables
-
 
 #*** BEGINNING OF THE PROGRAM LOGIC ****
-
-#*** Description of the program
 os.system("clear")          #*** Clear screen
 
-
 #*** Request data
-
+weigth = float(input("Enter the weight of a package: "))
 #*** Process data
+
+if weigth <= 2:
+    shipping_charges = weigth *1.5
+elif  weigth > 2 and weigth <=6:
+    shipping_charges = weigth * 3.0
+elif weigth > 6 and weigth <= 10.0:
+    shipping_charges = weigth * 4.0
+elif  weigth > 10.0:
+    shipping_charges = weigth * 4.75
 
 
 #*** Display results
-
-
-
+print(f"The shipping charges: ${shipping_charges:7,.2f}")
 
 #***** Ending program
 print("\n")   
 #***** END executions of the program    
+
+
