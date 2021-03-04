@@ -33,6 +33,6 @@ print(f"The shipping charges: ${shipping_charges:7,.2f}")
 
 #***** Ending program
 print("\n")   
-#***** END executions of the program    
+#***** END  executions of the program    
 
 
